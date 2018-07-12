@@ -1,0 +1,93 @@
+.contenedor{
+	background: url(../img/maleta-viajes.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+}
+.barra-superior{
+	background-color: black;
+	max-height: 8rem;
+}
+.logo{
+	width: 50%;
+	margin-top: 0.7rem;
+	float: right;
+}
+.botones-nav{
+	margin-top: 0.7rem;
+}
+.slogan{
+	margin: 0.7rem;
+	font-size: 1.7rem;
+	color: antiquewhite;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif" 
+}
+.redes-sociales{
+	margin-top: 10rem;
+}
+.logo-redes-sociales{
+	width: 50%;
+}
+.imagen-1{
+	margin-top: 7rem;
+}
+.imagen-3{
+	margin-top: 7rem;
+	width: 100%;
+	height: 32rem;
+}
+.imagen-4{
+	margin-top: 7rem;
+}
+.imagen-5{
+	width: 100%;
+	height: 19.3rem;
+}
+.imagen-card{
+	width: 100%;
+}
+
+@media(max-width:767px){
+	.logo{
+		width: 20%;
+		float: left;
+	}
+	
+	.imagen-1{
+		margin-top: 7rem;
+	}
+	.slogan{
+		display: none;
+	}
+}
+@media (max-width:990px){
+	.logo{
+		width: 20%;
+		margin-top: 0 !important;
+		float: left;
+	}
+	.slogan{
+		display: none;
+	}
+	.imagenes{
+		width: 100%;
+		margin: 0;
+	}
+	.imagen-1{
+		margin-top: 7rem;
+}
+}
+@media (max-width:1199px){
+	.slogan{
+		display: none;
+	}
+	.imagen-3{
+		max-height: 285px;
+	}
+	.imagen-5{
+		max-height: 173px;
+	}
+}
